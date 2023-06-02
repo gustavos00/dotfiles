@@ -6,8 +6,10 @@
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
-  
-  // Editor settings 
+
+  // Editor settings
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "editor.fontSize": 12,
   "editor.lineHeight": 20,
@@ -23,7 +25,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-    
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   // VSCode stuff
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
@@ -31,12 +34,11 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "bracketPairColorizer.depreciation-notice": false,
-  
+
   // Emmet
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  
+
   // Extensions
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -73,5 +75,6 @@
   "gitlens.hovers.currentLine.over": "line",
   "liveServer.settings.donotShowInfoMsg": true,
   "git.confirmSync": false,
-  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnPaste": true,
+  "eslint.format.enable": true
 }
